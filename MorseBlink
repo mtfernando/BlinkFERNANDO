@@ -1,0 +1,169 @@
+echo "# BlinkFERNANDO" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mtfernando/BlinkFERNANDO.git
+git push -u origin master
+
+//Blink FERNANDO in Morse Code
+int led1 = D7;
+
+
+void setup() {
+
+    pinMode(led1, OUTPUT);
+
+}
+
+
+void loop() {
+    // Morse Code Blinks
+    //Dots will be represented by a 250 milisecond blink.
+    //Lines will be represented by a 1500 milisecond blink
+    //Morse Character seperation will be represented by a 500 milisecond pause.
+    //Letter seperation will be represented by a 1000 milisecond pause.
+    
+    //Letter "F"
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    //Seperator 
+    delay(1000);
+    
+    //Letter "E"
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    //Seperator 
+    delay(1000);
+    
+    //Letter "R"
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    //Seperator 
+    delay(1000);
+    
+    //Letter "N"
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    //Seperator 
+    delay(1000);
+    
+    //Letter "A"
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    //Seperator 
+    delay(1000);
+    
+    //Letter "N"
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    //Seperator 
+    delay(1000);
+    
+    //Letter "D"
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    //Seperator 
+    delay(1000);
+    
+    //Letter "O"
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    //Seperator 
+    delay(1000);
+    
+    
+
+    // And repeat!
+}
