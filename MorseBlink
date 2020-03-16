@@ -163,7 +163,6 @@ void loop() {
     //Seperator 
     delay(1000);
     
-    
-
-    // And repeat!
+    //END OF SEQUENCE
+    delay(5000);
 }
